@@ -28,15 +28,6 @@ int main(){
         liste[i]=c;    
     }
 
-    // for(int index = 0; index<groesse; index++){
-    //     int zaehler_index = ((int)text[index] - 97);
-    //     if(zaehler_index < 97 || zaehler_index > 122){
-    //         continue;
-    //     }
-    //     liste[zaehler_index].wieoft += 1;
-    // }
-
-
     while (d<groesse-1){        
         e=text[d];
         while (true){
@@ -65,3 +56,39 @@ int main(){
 
     return 0;
 }
+
+// Tests
+
+// Linus@Linus-Pc ~/code/infob
+// $ g++ -Wall -Wextra -Werror -pedantic -std=c++14 histog.cpp
+
+// Linus@Linus-Pc ~/code/infob
+// $ ./a.exe
+// Wie gross ist dein text?5
+// hallo
+// a 1
+// b 0
+// c 0
+// d 0
+// e 0
+// f 0
+// g 0
+// h 1
+// i 0
+// j 0
+// k 0
+// l 2
+// m 0
+// n 0
+// o 1
+// p 0
+// q 0
+// r 0
+// s 0
+// t 0
+// u 0
+// v 0
+// w 0
+// x 0
+// y 0
+// z 0
